@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main>
+        <h1 id = "title">Aadhar Survey Form</h1>
+        <p id = "description">Thank you for your precious time fo fill this survey form</p>
+        </main>
+        <main>
+          <form id="survey-form">
+            <fieldset>
+              <div>
+              <label id="name-label">Name</label></div>
+              <div>
+              <input type="text" id="name" placeholder="Enter your name" required>
+              </div>
+
+              <div>
+              <label id="email-label">Email</label></div>
+              <div>
+              <input type="email" id="email" placeholder="Enter your Email" required>
+              </div>
+              <div>
+                <label id="number-label">Number</label>
+                </div>
+                <div>
+                <input type="number" id = "number" placeholder="Enter your number" min ="0" max="10">
+                </div>
+                <div>
+                  <label>From which city do you belongs to?</label>
+                  </div>
+                <div>
+                  <select id="dropdown">
+                    <option value="select">Select your city</option>
+                     <option value="nagpur">Nagpur</option> <option value="pune">Pune</option> <option value="bangalore">Bangalore</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Choose your gender</label>            
+                </div>
+                <div id="gen">
+                <div>
+                  <input type="radio" name="gender" value="male">Male
+                   <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                  </div></div>
+                  <div id="interest">
+                    <label >What are your area of interest?</label>
+                    </div>
+                    <div id="check">
+                    <div>
+                      <input type="checkbox" value="reading">Reading</div>
+                      <div>
+                       <input type="checkbox" value="swimming">Swimming</div>
+                       <div>
+                        <input type="checkbox" value="dancing">Dancing </div>
+                        <div>
+                        <input type="checkbox" value="sports">Sports</div>
+                        <div>
+                        <input type="checkbox" value="cooking">Cooking </div>
+                        <div><input type="checkbox" value="technology">Technology 
+                        </div>
+                        <div><input type="checkbox" value="learning">Learning
+</div>
+                      </div>
+                      <div id="problems">
+                        <label>Tell us your problems regarding Aadhar portal.</label>
+                      </div>
+                      <div>
+                        <textarea rows="7" cols="40">Enter your problems here....</textarea>
+                        </div>
+                        <div>
+                          <input type="submit" id="submit" value="Submit">
+                          </div>
+             </fieldeset>
+      
+             
+          </form>
+        </main>
+    </body>
+  </html>

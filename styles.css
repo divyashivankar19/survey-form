@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(9, 24, 51);
+    color:white;
+    font-family:monospace;
+    font-size:15px;
+  }
+  #title{
+    text-align:center;
+  }
+  #description{
+    text-align:center;
+  }
+  fieldset{
+    margin:auto;
+    padding:30px;
+  }
+  #survey-form{
+    margin:20px;
+  }
+  #name, #email, #number,#dropdown{
+    height:30px;
+    width:100%;
+    margin-top:4px;
+    margin-bottom:12px;
+  }
+  #gen{
+    margin-top:10px;
+  }
+  #interest,#check{
+    margin-top:10px;
+  }
+  #check{
+    padding-top:2px;
+  }
+  #problems{
+    margin-top:10px;
+  }
+  textarea{
+    width:100%;
+    padding-top:10px;
+    margin-top:10px;
+  }
+  #submit{
+    margin-top:20px;
+    height:30px;
+    width:100%;
+    background-color:rgb(106, 212, 106);
+    color:white;
+  }
